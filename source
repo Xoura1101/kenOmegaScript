@@ -860,7 +860,7 @@ AutoSitups.TextColor3 = Color3.fromRGB(0, 0, 0)
 AutoSitups.TextSize = 40.000
 AutoSitups.MouseButton1Down:connect(function()
 	_G.Tool = "Situp" --- "Situp" or "Pushup:
-	_G.Time = 0.9 --- time to do one pushup/situp
+	_G.Time = 0.7 --- time to do one pushup/situp
 	_G.MinStam = 50 --- when reached it'll rest
 	_G.MaxStam = 1000 --- your max stamina
 	_G.foodValue = 50 --- food percentage when it'll eat
